@@ -1,7 +1,7 @@
 // Arquivo com erros intencionais para revisão do Copilot
 
 function calcularTotal(preco, quantidade) {
-    if (preco = 0) {   // ERRO: operador errado (atribuição)
+    if (preco === 0) {   // ERRO: operador errado (atribuição)
         console.log("Preço inválido")
     }
 
