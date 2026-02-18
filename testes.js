@@ -23,7 +23,7 @@ async function buscarUsuario(id) {
 }
 
 buscarUsuario(1).then(user => {
-    console.log(user.name.toUppercase()) // ERRO: método errado (toUpperCase)
+    console.log(user.name.toUpperCase()) // ERRO: método errado (toUpperCase)
 })
 
 
