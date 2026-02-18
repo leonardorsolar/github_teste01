@@ -17,8 +17,8 @@ console.log("Total:", calcularTotal(valor, 2))
 
 // ERRO assíncrono mal implementado
 async function buscarUsuario(id) {
-    const response = fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
-    const data = response.json() // ERRO: falta await
+    const response = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
+    const data = await response.json() // ERRO: falta await
     return data
 }
 
