@@ -28,7 +28,7 @@ buscarUsuario(1).then(user => {
 
 // ERRO lógico
 function dividir(a, b) {
-    if (b = 0) {
+    if (b === 0) {
         return "Não pode dividir por zero"
     }
     return a / b
