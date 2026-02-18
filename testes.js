@@ -11,6 +11,7 @@ function calcularTotal(preco, quantidade) {
 }
 
 // ERRO: variável não definida
+const valor = 10;
 console.log("Total:", calcularTotal(valor, 2))
 
 
